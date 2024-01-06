@@ -76,6 +76,11 @@ body{
 
 /* main section styles */
 
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* about section styles */
 
 .about{
@@ -84,6 +89,16 @@ body{
     background: #FFF8F3;
     margin: 130px 0;
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
+    te
+}
+
 .section-title{
     color: #181818;
     text-align: center;
@@ -95,3 +110,4 @@ body{
     text-align: center;
     font-size: 18px;
 }
+/* main section styles */
